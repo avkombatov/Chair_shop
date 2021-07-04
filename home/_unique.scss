@@ -1,0 +1,50 @@
+.unique {
+    padding-top: 90px;
+    display: flex;
+
+    &__left {
+        margin-right: 30px;
+    }
+
+    // &__right {
+    //     margin-right: 30px;
+
+    // }
+    &__left {
+        position: relative;
+    }
+
+    &__content {
+        position: absolute;
+        margin-top: -380px;
+        margin-left: 35px;
+    }
+
+    &__exclusive {
+        color: #1e88e5;
+    }
+
+    &__h2 {
+        margin-top: 10px;
+    }
+
+    &__p {
+        width: 350px;
+        margin-top: 15px;
+    }
+
+    &__button {
+        margin-top: 25px;
+    }
+
+    .img__right {
+        margin-right: 30px;
+        flex-wrap: wrap;
+        margin-bottom: 29px;
+
+        &:hover {
+            outline: 1px solid #a1a1a2;
+            transition: 0.2s;
+        }
+    }
+}

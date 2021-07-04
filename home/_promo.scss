@@ -1,0 +1,45 @@
+.promo {
+    display: flex;
+    flex-direction: row;
+    height: 683px;
+
+    &__img {
+        position: relative;
+    }
+
+    &__left {
+        height: 683px;
+        background-image: url(/img/promo/picture-1.png);
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+
+    &__right {
+        height: 683px;
+        background-image: url(/img/promo/picture-2.png);
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+
+    &__content {
+        padding-left: 50px;
+    }
+
+    &__exclusive {
+        color: #1e88e5;
+        margin-top: 230px;
+    }
+
+    &__h2 {
+        margin-top: 8px;
+    }
+
+    &__p {
+        margin-top: 10px;
+        width: 390px;
+    }
+
+    &__button {
+        margin-top: 30px;
+    }
+}

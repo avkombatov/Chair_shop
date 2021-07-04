@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 615px);
+    padding-right: calc(50% - 615px);
+}
+
+.center__content {
+    padding-left: calc(50% - 683px);
+    padding-right: calc(50% - 683px);
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.active__li {
+    border-bottom: 4px solid black;
+    font-weight: bold;
+    color: black;
+
+    &_color {
+        color: black;
+    }
+
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pag__active {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+
+.pag__left,
+.pag__center,
+.pag__right {
+    margin-right: 10px;
+}
+.pag__left,
+.pag__right {
+    height: 30px;
+    width: 30px;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+
+    &:hover {
+        background-color: #a19d9d;
+        transition: 0.2s;
+    }
+
+}
+
+.exclusive {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 4px;
+}
+
+.h1 {
+    font-weight: 100;
+    font-size: 64px;
+    color: black;
+
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6c6c6c;
+    line-height: 24px;
+}
+
+.button {
+    width: 210px;
+    height: 46px;
+    font-size: 18px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 17px;
+    border: none;
+    box-shadow: 0 0 10px #C6C6C6;
+    letter-spacing: 4px;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.02);
+        transition: 0.2s;
+    }
+}
+
+.explore {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: black;
+
+    &:hover {
+        color: #FF865A;
+        transition: 0.2s;
+    }
+}
+
+.heading {
+    &__a1 {
+        margin-right: 35px;
+    }
+
+    &__a1,
+    &__a2 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #6c6c6c;
+
+    }
+
+    &__a2 {
+        &:hover {
+            color: black;
+            transition: 0.2s;
+        }
+    }
+
+    &__active {
+        color: black;
+        border-bottom: 3px solid black;
+        padding-left: 21px;
+        padding-right: 21px;
+
+    }
+}

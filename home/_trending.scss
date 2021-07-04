@@ -1,0 +1,35 @@
+.trending {
+    
+    &__top {
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+    }
+    &__explore{
+        margin-top: 14px;
+    }
+    .heading{
+        &__a1{
+            color: black;
+        }
+    }
+    &__product{
+        display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-top: 50px;
+     margin-bottom: 50px;
+    }
+    &__img{
+        display: block;
+    }
+    &__a{
+        margin-bottom: 30px;
+     &:hover{
+            outline: 1px solid #a1a1a2;
+            transition: 0.2s;
+        }
+    }
+    
+
+}

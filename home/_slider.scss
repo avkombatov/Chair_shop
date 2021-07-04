@@ -1,0 +1,33 @@
+.slider {
+    height: 800px;
+    background-image: url(/img/slider/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__content {
+        margin-left: 100px;
+
+    }
+
+    &__exclusive {
+        padding-top: 270px;
+        color: #e53935;
+    }
+
+    &__p {
+        width: 520px;
+        margin-top: 20px;
+    }
+
+    &__h2 {
+        margin-top: 10px;
+    }
+   
+    &__button {
+        margin-top: 35px;
+    }
+&__pagination{
+    margin-top: 215px;
+}
+
+}
