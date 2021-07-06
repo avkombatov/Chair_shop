@@ -1,0 +1,30 @@
+.contact{
+    height: 560px;
+    display: flex;
+    justify-content: space-between;
+    .contact{
+        &__block{
+            text-align: center;
+            margin-top: 70px;
+            height: 370px;
+            width: 370px;
+            border: 1px solid #a6a6a6;
+        }
+        &__img{
+            margin-top: 45px;
+        }
+        &__h4{
+            font-weight: bold;
+            font-size: 22px;
+            margin-top: 20px;
+        }
+        &__p{
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        &__color{
+            color: #6c6c6c;
+        }
+    }
+}
