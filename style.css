@@ -164,7 +164,7 @@ h2 {
   height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/header/background.png);
+  background-image: url(img/header/background.png);
 }
 
 .header__top {
@@ -337,7 +337,7 @@ h2 {
 
 .promo__left {
   height: 683px;
-  background-image: url(/img/promo/picture-1.png);
+  background-image: url(img/promo/picture-1.png);
   background-repeat: no-repeat;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -346,7 +346,7 @@ h2 {
 
 .promo__right {
   height: 683px;
-  background-image: url(/img/promo/picture-2.png);
+  background-image: url(img/promo/picture-2.png);
   background-repeat: no-repeat;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -422,7 +422,7 @@ h2 {
 
 .slider {
   height: 800px;
-  background-image: url(/img/slider/background.png);
+  background-image: url(img/slider/background.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -507,7 +507,7 @@ h2 {
 .mobile {
   height: 520px;
   background-color: #f9f4f1;
-  background-image: url(/img/mobile/background.png);
+  background-image: url(img/mobile/background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -614,7 +614,7 @@ h2 {
 }
 
 .footer__button {
-  background: url(/img/footer/button.png), white;
+  background: url(img/footer/button.png), white;
   background-position: center;
   background-repeat: no-repeat;
   height: 50px;
