@@ -61,24 +61,16 @@
     &__pagination {
         margin-top: 80px;
     }
+    &__contact,
+    &__products {
+        background-color: #f5f5f5;
+        height: 350px;
+    }
 
-    // .pagination {
-    //     display: flex;
-    //     justify-content: center;
-    // }
+    &__h1 {
+        &_margin {
+            margin-top: 150px;
+        }
+    }
 
-    // .pag__active {
-    //     height: 40px;
-    //     width: 40px;
-    //     background-color: black;
-    //     border-radius: 50%;
-    //     margin-top: -6px;
-    // }
-
-
-    // .pag__left,
-    // .pag__center,
-    // .pag__right {
-    //     margin-right: 10px;
-    // }
-}
+   }

@@ -1,0 +1,43 @@
+.products{
+    &__ul {
+        margin-top: 50px;
+        display: flex;
+
+    }
+    &__li {
+        font-weight: bold;
+        color: #8E8E8E;
+        font-size: 14px;
+        margin-right: 13px;
+
+        &:hover {
+            color: black;
+            transition: 0.2s;
+        }
+
+    }
+    &__li li {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+    }
+    &__box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &__update{
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 100px;
+        
+    }
+    &__img{
+        &:hover{
+            transform: scale(1.13);
+            transition: 0.2s;
+        }
+    }
+}
